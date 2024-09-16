@@ -1,3 +1,80 @@
 body {
-  background: wheat;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/672/original/pexels-valeriya-842571.jpg?1726474587);
+  font-family: sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: black;
+  opacity: 0.6;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 38px;
+  color: white;
+  line-height: 1.2;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+form {
+  padding: 30px;
+
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.prompt {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: maroon;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: maroon;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.recipe {
+  font-size: 16px;
+
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #885df1;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(184, 21, 21);
 }
