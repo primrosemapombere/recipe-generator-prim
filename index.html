@@ -6,7 +6,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Recipe Generator</title>
+    <title>Recipe Generator by Prim</title>
   </head>
   <body>
     <div class="container">
@@ -15,27 +15,27 @@
       </header>
 
       <main>
-        <form id="type">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Enter keywords for recipe"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="hint" i.e: Chicken, Rice, Chocolate Cake></div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter keywords for recipe"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint"><em>e.g: Chicken, Lamb, Rice or Pizza</em></div>
+        </div>
         <div class="recipe hidden" id="recipe"></div>
       </main>
-
+      <br /><br />
       <hr />
       <footer>
-        This project was coded by
+        This AI project was coded by
         <a href="https://github.com/primrosemapombere" target="_blank"
           >Primrose Mapombere</a
         >
@@ -44,14 +44,15 @@
           href="https://github.com/primrosemapombere/recipe-generator-prim"
           target="_blank"
         >
-          github
+          Github
         </a>
         and hosted on
         <a href="https://recipe-generator-prim.netlify.app/" target="_blank"
-          >netlify.</a
+          >Netlify.</a
         >
       </footer>
     </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
